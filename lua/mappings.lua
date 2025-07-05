@@ -22,3 +22,7 @@ map(
   [[<Cmd>lua vim.diagnostic.goto_next({ float = { border = "rounded" } })<CR>]],
   { noremap = true, silent = true, desc = "Go to next diagnostic" }
 )
+
+map("n", "ce", '"_ce', { noremap = true })
+map("n", "x", '"_x', { noremap = true })
+-- map("n", "C", '"_C', { noremap = true })
